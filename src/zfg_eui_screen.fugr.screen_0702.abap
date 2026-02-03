@@ -1,0 +1,10 @@
+PROCESS BEFORE OUTPUT.
+  MODULE pbo_0700.
+
+  CALL SUBSCREEN area
+    INCLUDING gv_screen_prog_02 gv_screen_dynnr_02.
+
+PROCESS AFTER INPUT.
+  MODULE pai_exit AT EXIT-COMMAND.
+  CALL SUBSCREEN area.
+  MODULE pai_0700.

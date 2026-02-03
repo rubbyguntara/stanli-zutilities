@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_UTILITIES</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAP Utilities</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_STR_TO_XSTRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert String to XString</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_TO_LOCAL_CURR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert to local currency</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_XSTRING_TO_STR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert XString to String</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ATTACH_PDF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PDF Attachment for Email</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TVARVC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TVARV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TVARV_PARAMETER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get TVARV ( Parameter )</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TVARV_SELECT_OPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get TVARV ( Fromto )</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_SPECIAL_CHAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remove Special Character</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEND_EMAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Send Email</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
